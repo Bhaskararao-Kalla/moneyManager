@@ -1,0 +1,47 @@
+.money-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.money-box {
+  height: 100px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.total-box {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+
+.income-box {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+
+.expenses-box {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+
+.image {
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+}
+
+.type-of-money {
+  font: bold 15px 'roboto';
+  color: #334155;
+}
+
+.money {
+  font: bold 20px 'roboto';
+  color: #1e293b;
+}

@@ -1,0 +1,39 @@
+.transaction-item {
+  list-style-type: none;
+  display: flex;
+
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  padding-left: 20px;
+  font: 400 12px 'roboto';
+  color: #334155;
+  width: 100%;
+}
+
+.title-name {
+  width: 30%;
+}
+
+.amount-rs {
+  width: 25%;
+}
+
+.display-text {
+  width: 30%;
+}
+
+.delete-button {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.delete-image {
+  width: 100%;
+  background-size: cover;
+}
